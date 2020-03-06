@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { IfprComponent } from './ifpr/ifpr.component';
 import { TadsComponent } from './tads/tads.component';
 import { AngComponent } from './angular/ang.component';
+import {ClienteModule} from './cliente/cliente.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AngComponent } from './angular/ang.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ClienteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
