@@ -11,7 +11,7 @@ import {ClienteModule} from './cliente/cliente.module';
 
 @NgModule({
   declarations: [
-    AppComponent, IfprComponent, TadsComponent, AngComponent
+    AppComponent, IfprComponent, TadsComponent, AngComponent,
   ],
   imports: [
     BrowserModule,
